@@ -2,7 +2,7 @@ import requests
 
 def update_book_description():
     url_api_livros = "http://localhost:3000/livros"
-    response_livros = requests.get(url_api_livros) #obtendo todos os livros
+    response_livros = requests.get(url_api_livros)
     if response_livros.status_code == 200:
         data = response_livros.json()
         for book_obj in data:
@@ -12,13 +12,14 @@ def update_book_description():
                 book_info = response.json().get('items', [])
                 if book_info:
                     volume_info = book_info[0].get('volumeInfo', {})
-                    print(volume_info)
                     description = volume_info.get("description", "")
-                    #authors = ", ".join([author["name"] for author in volume_info.get("authors", [])])
-                    # Adiciona a descrição e os autores ao livro no banco de dados
-                    put_data = {"descricao": description}
-                    id_livro = book_obj["id"]
-                    put_url = f"{url_api_livros}/{id_livro}?campos=descricao,autores"
-                    requests.put(put_url, json=put_data)
-                    
+                    book_obj["descricao"] = description  # Update the description field
+                    put_url = f"{url_api_livros}/{book_obj['id']}"
+                    response_put = requests.put(put_url, json=book_obj)
+                    if response_put.status_code == 200:
+                        print(f"Descrição atualizada para {book_obj['nome']}")
+                    else:
+                        print(f"Falha ao atualizar a descrição para {book_obj['nome']}")
+
+# Chamada da função para atualizar as descrições de todos os livros na API
 update_book_description()
