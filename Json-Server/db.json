@@ -1,0 +1,904 @@
+{
+  "livros": [
+    {
+      "id": "1",
+      "nome": "Dom Casmurro",
+      "descricao": "Romance clássico da literatura brasileira que narra a história de Bentinho e Capitu.",
+      "categoria": "Ficção",
+      "autor": "Machado de Assis",
+      "editora": "Editora A",
+      "foto": "http://books.google.com/books/content?id=UJHyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "2",
+      "nome": "1984",
+      "descricao": "Distopia que retrata um governo totalitário e opressivo.",
+      "categoria": "Ficção Científica",
+      "autor": "George Orwell",
+      "editora": "Editora B",
+      "foto": "http://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "3",
+      "nome": "O Pequeno Príncipe",
+      "descricao": "Um clássico da literatura infantil que aborda temas profundos de forma simples.",
+      "categoria": "Infantil",
+      "autor": "Antoine de Saint-Exupéry",
+      "editora": "Editora C",
+      "foto": "http://books.google.com/books/content?id=1D9KEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "4",
+      "nome": "O Senhor dos Anéis",
+      "descricao": "Épica história de fantasia que se passa em um mundo fictício.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora D",
+      "foto": "http://books.google.com/books/content?id=R7KuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "5",
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "descricao": "Primeiro livro da série Harry Potter, que narra as aventuras do jovem bruxo Harry.",
+      "categoria": "Fantasia",
+      "autor": "J.K. Rowling",
+      "editora": "Editora E",
+      "foto": "https://images-na.ssl-images-amazon.com/images/I/51y4xSmm2xL.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "A Revolução dos Bichos",
+      "descricao": "Fábula que satiriza os regimes totalitários, representando figuras políticas como animais.",
+      "categoria": "Ficção",
+      "autor": "George Orwell",
+      "editora": "Editora F",
+      "foto": "http://books.google.com/books/content?id=UgUPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "7",
+      "nome": "Orgulho e Preconceito",
+      "descricao": "Romance que aborda questões de classe social e valores morais.",
+      "categoria": "Romance",
+      "autor": "Jane Austen",
+      "editora": "Editora G",
+      "foto": "http://books.google.com/books/content?id=0dC5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "8",
+      "nome": "O Hobbit",
+      "descricao": "Aventura de Bilbo Bolseiro em sua jornada para recuperar o tesouro guardado por Smaug.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora H",
+      "foto": "http://books.google.com/books/content?id=2LeZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "9",
+      "nome": "A Metamorfose",
+      "descricao": "Novela que conta a história de Gregor Samsa, que se transforma em um inseto.",
+      "categoria": "Ficção",
+      "autor": "Franz Kafka",
+      "editora": "Editora I",
+      "foto": "http://books.google.com/books/content?id=TCHXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "10",
+      "nome": "Crime e Castigo",
+      "descricao": "Um dos maiores romances psicológicos já escritos, que explora a culpa e o castigo.",
+      "categoria": "Romance",
+      "autor": "Fiódor Dostoiévski",
+      "editora": "Editora J",
+      "foto": "http://books.google.com/books/content?id=nO2MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "11",
+      "nome": "Cem Anos de Solidão",
+      "descricao": "Narrativa sobre a história de várias gerações da família Buendía, em Macondo.",
+      "categoria": "Ficção",
+      "autor": "Gabriel García Márquez",
+      "editora": "Editora K",
+      "foto": "http://books.google.com/books/content?id=MAqQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "12",
+      "nome": "A Insustentável Leveza do Ser",
+      "descricao": "Romance filosófico sobre amor, identidade e destino.",
+      "categoria": "Romance",
+      "autor": "Milan Kundera",
+      "editora": "Editora L",
+      "foto": "http://books.google.com/books/content?id=qaKfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "13",
+      "nome": "O Alquimista",
+      "descricao": "A jornada de um jovem pastor em busca de seu tesouro pessoal.",
+      "categoria": "Ficção",
+      "autor": "Paulo Coelho",
+      "editora": "Editora M",
+      "foto": "http://books.google.com/books/content?id=bvYQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "14",
+      "nome": "Moby Dick",
+      "descricao": "A história do Capitão Ahab e sua obsessão em caçar a baleia branca.",
+      "categoria": "Aventura",
+      "autor": "Herman Melville",
+      "editora": "Editora N",
+      "foto": "http://books.google.com/books/content?id=XV8XAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "15",
+      "nome": "O Retrato de Dorian Gray",
+      "descricao": "Um jovem que vende sua alma em troca da eterna juventude.",
+      "categoria": "Ficção",
+      "autor": "Oscar Wilde",
+      "editora": "Editora O",
+      "foto": "http://books.google.com/books/content?id=jdK5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "16",
+      "nome": "O Iluminado",
+      "descricao": "Um romance de terror psicológico sobre um hotel assombrado.",
+      "categoria": "Terror",
+      "autor": "Stephen King",
+      "editora": "Editora P",
+      "foto": "http://books.google.com/books/content?id=O4wtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "17",
+      "nome": "Anna Karenina",
+      "descricao": "Um romance que explora temas como adultério, amor e sociedade russa.",
+      "categoria": "Romance",
+      "autor": "Liev Tolstói",
+      "editora": "Editora Q",
+      "foto": "http://books.google.com/books/content?id=y4ECx94VRJYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "18",
+      "nome": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+      "descricao": "Primeiro livro da série que narra as aventuras de crianças em Nárnia.",
+      "categoria": "Fantasia",
+      "autor": "C.S. Lewis",
+      "editora": "Editora R",
+      "foto": "http://books.google.com/books/content?id=iUGhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "19",
+      "nome": "O Apanhador no Campo de Centeio",
+      "descricao": "A história de um adolescente em conflito com o mundo ao seu redor.",
+      "categoria": "Ficção",
+      "autor": "J.D. Salinger",
+      "editora": "Editora S",
+      "foto": "http://books.google.com/books/content?id=Gm_iDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "20",
+      "nome": "Memórias Póstumas de Brás Cubas",
+      "descricao": "Romance satírico que conta a história de um defunto autor.",
+      "categoria": "Romance",
+      "autor": "Machado de Assis",
+      "editora": "Editora T",
+      "foto": "http://books.google.com/books/content?id=TqeWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "21",
+      "nome": "A Arte da Guerra",
+      "descricao": "Um tratado militar clássico sobre estratégia e táticas.",
+      "categoria": "Não Ficção",
+      "autor": "Sun Tzu",
+      "editora": "Editora U",
+      "foto": "http://books.google.com/books/content?id=0f6VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "22",
+      "nome": "O Nome do Vento",
+      "descricao": "A história de Kvothe, um jovem mago, músico e assassino lendário.",
+      "categoria": "Fantasia",
+      "autor": "Patrick Rothfuss",
+      "editora": "Editora V",
+      "foto": "http://books.google.com/books/content?id=7-9zwIWkAlEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "23",
+      "nome": "O Grande Gatsby",
+      "descricao": "Um clássico da literatura americana que retrata a vida dos ricos na década de 1920.",
+      "categoria": "Romance",
+      "autor": "F. Scott Fitzgerald",
+      "editora": "Editora W",
+      "foto": "http://books.google.com/books/content?id=1iZoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "24",
+      "nome": "1984",
+      "descricao": "Distopia que retrata um governo totalitário e opressivo.",
+      "categoria": "Ficção Científica",
+      "autor": "George Orwell",
+      "editora": "Editora X",
+      "foto": "http://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "25",
+      "nome": "O Lobo do Mar",
+      "descricao": "A história de um marinheiro que se envolve em uma trama de pirataria e vingança.",
+      "categoria": "Aventura",
+      "autor": "Jack London",
+      "editora": "Editora Y",
+      "foto": "http://books.google.com/books/content?id=2B43DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "26",
+      "nome": "Laranja Mecânica",
+      "descricao": "Um olhar sombrio sobre a juventude e a violência em uma sociedade distópica.",
+      "categoria": "Ficção Científica",
+      "autor": "Anthony Burgess",
+      "editora": "Editora Z",
+      "foto": "http://books.google.com/books/content?id=LciuCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "27",
+      "nome": "O Código Da Vinci",
+      "descricao": "Uma trama envolvendo conspirações religiosas e segredos milenares.",
+      "categoria": "Suspense",
+      "autor": "Dan Brown",
+      "editora": "Editora AA",
+      "foto": "http://books.google.com/books/content?id=gV1nhvItuoAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "28",
+      "nome": "O Sol é para Todos",
+      "descricao": "Um livro que aborda temas como injustiça racial e moralidade.",
+      "categoria": "Romance",
+      "autor": "Harper Lee",
+      "editora": "Editora BB",
+      "foto": "http://books.google.com/books/content?id=XVvkCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "29",
+      "nome": "Maus: A História de um Sobrevivente",
+      "descricao": "Uma graphic novel que narra a história do Holocausto.",
+      "categoria": "História em Quadrinhos",
+      "autor": "Art Spiegelman",
+      "editora": "Editora CC",
+      "foto": "https://images-na.ssl-images-amazon.com/images/I/71c0QuYr-2L.jpg"
+    },
+    {
+      "id": "30",
+      "nome": "O Morro dos Ventos Uivantes",
+      "descricao": "Um clássico da literatura inglesa que explora temas como amor, vingança e redenção.",
+      "categoria": "Romance Gótico",
+      "autor": "Emily Brontë",
+      "editora": "Editora DD",
+      "foto": "http://books.google.com/books/content?id=oXDTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "31",
+      "nome": "O Poder do Hábito",
+      "descricao": "Um livro sobre o funcionamento dos hábitos e como mudá-los.",
+      "categoria": "Autoajuda",
+      "autor": "Charles Duhigg",
+      "editora": "Editora EE",
+      "foto": "http://books.google.com/books/content?id=XjgqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "32",
+      "nome": "O Silmarillion",
+      "descricao": "Um livro que explora a mitologia e a história do universo criado por J.R.R. Tolkien.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora FF",
+      "foto": "http://books.google.com/books/content?id=B3uFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "33",
+      "nome": "O Apanhador no Campo de Centeio",
+      "descricao": "Um clássico da literatura que retrata a adolescência e a busca por identidade.",
+      "categoria": "Romance",
+      "autor": "J.D. Salinger",
+      "editora": "Editora GG",
+      "foto": "http://books.google.com/books/content?id=Gm_iDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "34",
+      "nome": "O Estrangeiro",
+      "descricao": "Um romance que explora temas como alienação, absurdo e existencialismo.",
+      "categoria": "Ficção",
+      "autor": "Albert Camus",
+      "editora": "Editora HH",
+      "foto": "http://books.google.com/books/content?id=44CcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "35",
+      "nome": "A Hora da Estrela",
+      "descricao": "A história de Macabéa, uma mulher do nordeste brasileiro em busca de sua identidade.",
+      "categoria": "Romance",
+      "autor": "Clarice Lispector",
+      "editora": "Editora II",
+      "foto": "http://books.google.com/books/content?id=82UHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "36",
+      "nome": "A Coragem de Ser Imperfeito",
+      "descricao": "Um livro que explora a importância da vulnerabilidade e da autenticidade.",
+      "categoria": "Autoajuda",
+      "autor": "Brené Brown",
+      "editora": "Editora JJ",
+      "foto": "http://books.google.com/books/content?id=zd-yAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "37",
+      "nome": "A Revolução dos Bichos",
+      "descricao": "Uma sátira política que critica o totalitarismo através de animais em uma fazenda.",
+      "categoria": "Ficção",
+      "autor": "George Orwell",
+      "editora": "Editora KK",
+      "foto": "http://books.google.com/books/content?id=UgUPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "38",
+      "nome": "O Médico e o Monstro",
+      "descricao": "Um clássico da literatura gótica que explora a dualidade humana.",
+      "categoria": "Ficção Gótica",
+      "autor": "Robert Louis Stevenson",
+      "editora": "Editora LL",
+      "foto": "http://books.google.com/books/content?id=hTUn4EvI_jYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "39",
+      "nome": "O Labirinto dos Espíritos",
+      "descricao": "O último livro da série O Cemitério dos Livros Esquecidos, que mistura suspense e história.",
+      "categoria": "Suspense",
+      "autor": "Carlos Ruiz Zafón",
+      "editora": "Editora MM",
+      "foto": "http://books.google.com/books/content?id=HYwtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "40",
+      "nome": "O Homem Duplicado",
+      "descricao": "Um thriller psicológico sobre identidade e existência.",
+      "categoria": "Suspense",
+      "autor": "José Saramago",
+      "editora": "Editora NN",
+      "foto": "http://books.google.com/books/content?id=nWVlAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "41",
+      "nome": "A Metamorfose",
+      "descricao": "Uma novela sobre a transformação de um homem em um inseto.",
+      "categoria": "Ficção",
+      "autor": "Franz Kafka",
+      "editora": "Editora OO",
+      "foto": "http://books.google.com/books/content?id=TCHXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "42",
+      "nome": "A Culpa é das Estrelas",
+      "descricao": "Um romance sobre dois adolescentes com câncer que se apaixonam.",
+      "categoria": "Romance",
+      "autor": "John Green",
+      "editora": "Editora PP",
+      "foto": "http://books.google.com/books/content?id=0Ce7HDOnNFMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "43",
+      "nome": "O Leão, a Feiticeira e o Guarda-Roupa",
+      "descricao": "Primeiro livro da série As Crônicas de Nárnia.",
+      "categoria": "Fantasia",
+      "autor": "C.S. Lewis",
+      "editora": "Editora QQ",
+      "foto": "http://books.google.com/books/content?id=iUGhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "44",
+      "nome": "O Conde de Monte Cristo",
+      "descricao": "A história de vingança de Edmond Dantès após ser traído e preso injustamente.",
+      "categoria": "Aventura",
+      "autor": "Alexandre Dumas",
+      "editora": "Editora RR",
+      "foto": "http://books.google.com/books/content?id=xdfkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "45",
+      "nome": "Maus",
+      "descricao": "Uma graphic novel que retrata a história do Holocausto.",
+      "categoria": "História em Quadrinhos",
+      "autor": "Art Spiegelman",
+      "editora": "Editora SS",
+      "foto": "http://books.google.com/books/content?id=ASajL1zsziAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "46",
+      "nome": "O Médico",
+      "descricao": "A história de um órfão inglês que se torna um médico no século XI.",
+      "categoria": "Histórico",
+      "autor": "Noah Gordon",
+      "editora": "Editora TT",
+      "foto": "http://books.google.com/books/content?id=F-y_cXtBsGUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "47",
+      "nome": "O Hobbit",
+      "descricao": "A jornada de Bilbo Bolseiro para recuperar o tesouro guardado pelo dragão Smaug.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora UU",
+      "foto": "http://books.google.com/books/content?id=2LeZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "48",
+      "nome": "O Mundo de Sofia",
+      "descricao": "Um romance filosófico que explora a história da filosofia através de uma adolescente.",
+      "categoria": "Filosofia",
+      "autor": "Jostein Gaarder",
+      "editora": "Editora VV",
+      "foto": "http://books.google.com/books/content?id=2DgT_J9HyogC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "49",
+      "nome": "O Nome do Vento",
+      "descricao": "A história de Kvothe, um músico e mago lendário.",
+      "categoria": "Fantasia",
+      "autor": "Patrick Rothfuss",
+      "editora": "Editora WW",
+      "foto": "http://books.google.com/books/content?id=7-9zwIWkAlEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "50",
+      "nome": "A Insustentável Leveza do Ser",
+      "descricao": "Um romance que explora amor, identidade e destino.",
+      "categoria": "Romance",
+      "autor": "Milan Kundera",
+      "editora": "Editora XX",
+      "foto": "http://books.google.com/books/content?id=qaKfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "51",
+      "nome": "O Senhor dos Anéis",
+      "descricao": "A épica jornada para destruir o Um Anel e derrotar Sauron.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora YY",
+      "foto": "http://books.google.com/books/content?id=R7KuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "52",
+      "nome": "O Código Da Vinci",
+      "descricao": "Uma trama de conspirações religiosas e segredos milenares.",
+      "categoria": "Suspense",
+      "autor": "Dan Brown",
+      "editora": "Editora ZZ",
+      "foto": "http://books.google.com/books/content?id=gV1nhvItuoAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "53",
+      "nome": "1984",
+      "descricao": "Um mundo distópico controlado por um regime totalitário.",
+      "categoria": "Ficção Científica",
+      "autor": "George Orwell",
+      "editora": "Editora AAA",
+      "foto": "http://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "54",
+      "nome": "O Retrato de Dorian Gray",
+      "descricao": "A história de um homem jovem que vende sua alma em troca da eterna juventude.",
+      "categoria": "Ficção Gótica",
+      "autor": "Oscar Wilde",
+      "editora": "Editora BBB",
+      "foto": "http://books.google.com/books/content?id=jdK5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "55",
+      "nome": "Anna Karenina",
+      "descricao": "Um romance clássico sobre amor, adultério e sociedade russa.",
+      "categoria": "Romance",
+      "autor": "Liev Tolstói",
+      "editora": "Editora CCC",
+      "foto": "http://books.google.com/books/content?id=y4ECx94VRJYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "56",
+      "nome": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+      "descricao": "As aventuras de crianças em um mundo mágico.",
+      "categoria": "Fantasia",
+      "autor": "C.S. Lewis",
+      "editora": "Editora DDD",
+      "foto": "http://books.google.com/books/content?id=iUGhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "57",
+      "nome": "O Apanhador no Campo de Centeio",
+      "descricao": "Um jovem em conflito com o mundo ao seu redor.",
+      "categoria": "Ficção",
+      "autor": "J.D. Salinger",
+      "editora": "Editora EEE",
+      "foto": "http://books.google.com/books/content?id=Gm_iDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "58",
+      "nome": "Memórias Póstumas de Brás Cubas",
+      "descricao": "A história de um defunto autor.",
+      "categoria": "Romance",
+      "autor": "Machado de Assis",
+      "editora": "Editora FFF",
+      "foto": "http://books.google.com/books/content?id=TqeWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "59",
+      "nome": "O Poder do Hábito",
+      "descricao": "Um livro sobre como os hábitos moldam nossas vidas.",
+      "categoria": "Autoajuda",
+      "autor": "Charles Duhigg",
+      "editora": "Editora GGG",
+      "foto": "http://books.google.com/books/content?id=XjgqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "60",
+      "nome": "O Silmarillion",
+      "descricao": "A mitologia do universo criado por J.R.R. Tolkien.",
+      "categoria": "Fantasia",
+      "autor": "J.R.R. Tolkien",
+      "editora": "Editora HHH",
+      "foto": "http://books.google.com/books/content?id=B3uFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "61",
+      "nome": "O Grande Gatsby",
+      "descricao": "A vida extravagante dos ricos na década de 1920.",
+      "categoria": "Romance",
+      "autor": "F. Scott Fitzgerald",
+      "editora": "Editora III",
+      "foto": "http://books.google.com/books/content?id=1iZoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "62",
+      "nome": "O Lobo do Mar",
+      "descricao": "Aventura marítima em uma trama de pirataria e vingança.",
+      "categoria": "Aventura",
+      "autor": "Jack London",
+      "editora": "Editora JJJ",
+      "foto": "http://books.google.com/books/content?id=2B43DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "63",
+      "nome": "Laranja Mecânica",
+      "descricao": "Uma visão sombria do futuro onde a violência é controlada com técnicas psicológicas.",
+      "categoria": "Ficção Científica",
+      "autor": "Anthony Burgess",
+      "editora": "Editora KKK",
+      "foto": "http://books.google.com/books/content?id=LciuCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "64",
+      "nome": "O Sol é para Todos",
+      "descricao": "A história de injustiça racial e moralidade em uma cidade do sul dos Estados Unidos.",
+      "categoria": "Romance",
+      "autor": "Harper Lee",
+      "editora": "Editora LLL",
+      "foto": "http://books.google.com/books/content?id=XVvkCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "65",
+      "nome": "O Morro dos Ventos Uivantes",
+      "descricao": "Um clássico da literatura inglesa que explora amor, vingança e redenção.",
+      "categoria": "Romance Gótico",
+      "autor": "Emily Brontë",
+      "editora": "Editora MMM",
+      "foto": "http://books.google.com/books/content?id=oXDTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "66",
+      "nome": "O Aprendiz de Assassino",
+      "descricao": "Primeiro livro da série A Saga do Assassino, que segue as aventuras de Fitz, o Bastardo.",
+      "categoria": "Fantasia",
+      "autor": "Robin Hobb",
+      "editora": "Editora NNN",
+      "foto": "http://books.google.com/books/content?id=jWypDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "67",
+      "nome": "O Grande Inquisidor",
+      "descricao": "Um capítulo de Os Irmãos Karamázov, onde Ivan apresenta um conto filosófico.",
+      "categoria": "Filosofia",
+      "autor": "Fiódor Dostoiévski",
+      "editora": "Editora OOO",
+      "foto": "http://books.google.com/books/content?id=YR-vEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "68",
+      "nome": "O Jogo do Anjo",
+      "descricao": "A história de David Martín, um escritor atormentado, em Barcelona, nos anos 1920.",
+      "categoria": "Suspense",
+      "autor": "Carlos Ruiz Zafón",
+      "editora": "Editora PPP",
+      "foto": "http://books.google.com/books/content?id=CiPVDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "69",
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "descricao": "Primeiro livro da série Harry Potter, sobre um jovem bruxo que descobre seu destino.",
+      "categoria": "Fantasia",
+      "autor": "J.K. Rowling",
+      "editora": "Editora QQQ",
+      "foto": "http://books.google.com/books/content?id=GjgQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "70",
+      "nome": "A Cidade e as Serras",
+      "descricao": "Um romance de Eça de Queirós que critica a vida urbana e elogia a vida rural.",
+      "categoria": "Romance",
+      "autor": "Eça de Queirós",
+      "editora": "Editora RRR",
+      "foto": "http://books.google.com/books/content?id=-a7TEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "71",
+      "nome": "Crime e Castigo",
+      "descricao": "Um estudo psicológico sobre o crime e as consequências morais.",
+      "categoria": "Romance",
+      "autor": "Fiódor Dostoiévski",
+      "editora": "Editora SSS",
+      "foto": "http://books.google.com/books/content?id=nO2MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "72",
+      "nome": "O Pequeno Príncipe",
+      "descricao": "A jornada de um príncipe que viaja por diferentes planetas e aprende sobre o amor e a amizade.",
+      "categoria": "Fábula",
+      "autor": "Antoine de Saint-Exupéry",
+      "editora": "Editora TTT",
+      "foto": "http://books.google.com/books/content?id=1D9KEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "73",
+      "nome": "Admirável Mundo Novo",
+      "descricao": "Um romance distópico que retrata uma sociedade futurista e controladora.",
+      "categoria": "Ficção Científica",
+      "autor": "Aldous Huxley",
+      "editora": "Editora UUU",
+      "foto": "http://books.google.com/books/content?id=FfX-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "74",
+      "nome": "O Mundo Assombrado pelos Demônios",
+      "descricao": "Um livro sobre ciência, ceticismo e o método científico.",
+      "categoria": "Não Ficção",
+      "autor": "Carl Sagan",
+      "editora": "Editora VVV",
+      "foto": "http://books.google.com/books/content?id=8ePUBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "75",
+      "nome": "A Revolução dos Bichos",
+      "descricao": "Uma fábula política que critica o totalitarismo.",
+      "categoria": "Ficção",
+      "autor": "George Orwell",
+      "editora": "Editora WWW",
+      "foto": "http://books.google.com/books/content?id=UgUPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "76",
+      "nome": "A Cor da Magia",
+      "descricao": "Primeiro livro da série Discworld, uma sátira do gênero de fantasia.",
+      "categoria": "Fantasia Cômica",
+      "autor": "Terry Pratchett",
+      "editora": "Editora XXX",
+      "foto": "https://images-na.ssl-images-amazon.com/images/I/81HKppbQ29L.jpg"
+    },
+    {
+      "id": "77",
+      "nome": "A Mão Esquerda da Escuridão",
+      "descricao": "Uma ficção científica que explora questões de gênero e sexualidade.",
+      "categoria": "Ficção Científica",
+      "autor": "Ursula K. Le Guin",
+      "editora": "Editora YYY",
+      "foto": "http://books.google.com/books/content?id=INCuCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "78",
+      "nome": "Frankenstein",
+      "descricao": "A história de um cientista que cria uma criatura monstruosa.",
+      "categoria": "Ficção Gótica",
+      "autor": "Mary Shelley",
+      "editora": "Editora ZZZ",
+      "foto": "http://books.google.com/books/content?id=EFlXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "79",
+      "nome": "O Último Reino",
+      "descricao": "Primeiro livro da série Crônicas Saxônicas, que narra as invasões vikings na Inglaterra.",
+      "categoria": "Ficção Histórica",
+      "autor": "Bernard Cornwell",
+      "editora": "Editora AAAA",
+      "foto": "http://books.google.com/books/content?id=gjtPBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "80",
+      "nome": "A Sombra do Vento",
+      "descricao": "A história de um jovem que descobre um livro misterioso e embarca em uma jornada.",
+      "categoria": "Suspense",
+      "autor": "Carlos Ruiz Zafón",
+      "editora": "Editora BBBB",
+      "foto": "http://books.google.com/books/content?id=EfGuDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "81",
+      "nome": "A Noite das Bruxas",
+      "descricao": "Um livro sobre uma cidade assombrada por eventos sobrenaturais.",
+      "categoria": "Suspense",
+      "autor": "Ray Bradbury",
+      "editora": "Editora CCCC",
+      "foto": "http://books.google.com/books/content?id=eNIuBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "82",
+      "nome": "Moby Dick",
+      "descricao": "A história de uma perseguição obsessiva a uma baleia branca.",
+      "categoria": "Aventura",
+      "autor": "Herman Melville",
+      "editora": "Editora DDDD",
+      "foto": "http://books.google.com/books/content?id=XV8XAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "83",
+      "nome": "A Menina que Roubava Livros",
+      "descricao": "A história de Liesel Meminger, uma jovem que rouba livros durante a Segunda Guerra Mundial.",
+      "categoria": "Romance",
+      "autor": "Markus Zusak",
+      "editora": "Editora EEEE",
+      "foto": "http://books.google.com/books/content?id=-_MMbijUmTEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "84",
+      "nome": "A Revolta de Atlas",
+      "descricao": "Um romance que explora a filosofia objetivista.",
+      "categoria": "Ficção",
+      "autor": "Ayn Rand",
+      "editora": "Editora FFFF",
+      "foto": "http://books.google.com/books/content?id=GT5UEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "85",
+      "nome": "Guerra e Paz",
+      "descricao": "Uma obra-prima da literatura russa que narra a invasão de Napoleão na Rússia.",
+      "categoria": "Romance",
+      "autor": "Liev Tolstói",
+      "editora": "Editora GGGG",
+      "foto": "http://books.google.com/books/content?id=nNe5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "86",
+      "nome": "A Estrada",
+      "descricao": "A jornada de um pai e seu filho em um mundo pós-apocalíptico.",
+      "categoria": "Ficção Pós-Apocalíptica",
+      "autor": "Cormac McCarthy",
+      "editora": "Editora HHHH",
+      "foto": "http://books.google.com/books/content?id=ACze9rpJFBwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "87",
+      "nome": "O Pássaro Pintado",
+      "descricao": "Um romance sobre amor, traição e perdão na África do Sul durante o apartheid.",
+      "categoria": "Romance",
+      "autor": "Khaled Hosseini",
+      "editora": "Editora IIII",
+      "foto": "https://images-na.ssl-images-amazon.com/images/I/71XPrVnGFXL.jpg"
+    },
+    {
+      "id": "88",
+      "nome": "O Alquimista",
+      "descricao": "Um jovem pastor que embarca em uma jornada em busca de um tesouro.",
+      "categoria": "Autoajuda",
+      "autor": "Paulo Coelho",
+      "editora": "Editora JJJJ",
+      "foto": "http://books.google.com/books/content?id=bvYQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "89",
+      "nome": "Sapiens: Uma Breve História da Humanidade",
+      "descricao": "Uma visão da história da humanidade, desde os primórdios até os dias atuais.",
+      "categoria": "Não Ficção",
+      "autor": "Yuval Noah Harari",
+      "editora": "Editora KKKK",
+      "foto": "http://books.google.com/books/content?id=NZZWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "90",
+      "nome": "O Fim da Eternidade",
+      "descricao": "Um romance sobre viagem no tempo e seus paradoxos.",
+      "categoria": "Ficção Científica",
+      "autor": "Isaac Asimov",
+      "editora": "Editora LLLL",
+      "foto": "http://books.google.com/books/content?id=Hc-uCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "91",
+      "nome": "O Cemitério",
+      "descricao": "Uma família se muda para uma casa perto de um cemitério indígena, desencadeando eventos sobrenaturais.",
+      "categoria": "Horror",
+      "autor": "Stephen King",
+      "editora": "Editora MMMM",
+      "foto": "http://books.google.com/books/content?id=bh5sSJhW81UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "92",
+      "nome": "As Brumas de Avalon",
+      "descricao": "Uma releitura da lenda do Rei Arthur, contada sob a perspectiva das mulheres.",
+      "categoria": "Fantasia",
+      "autor": "Marion Zimmer Bradley",
+      "editora": "Editora NNNN",
+      "foto": "http://books.google.com/books/content?id=rDE5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "93",
+      "nome": "A Cidade do Sol",
+      "descricao": "Um romance sobre um jovem afegão e sua jornada em um mundo marcado pela guerra.",
+      "categoria": "Romance",
+      "autor": "Khaled Hosseini",
+      "editora": "Editora OOOO",
+      "foto": "http://books.google.com/books/content?id=-XqUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "94",
+      "nome": "O Jogo Eterno",
+      "descricao": "Primeiro livro da série O Jogo do Exterminador, uma saga de ficção científica.",
+      "categoria": "Ficção Científica",
+      "autor": "Orson Scott Card",
+      "editora": "Editora PPPP",
+      "foto": "http://books.google.com/books/content?id=7qshEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "95",
+      "nome": "O Príncipe",
+      "descricao": "Um tratado político sobre como governantes devem manter o poder.",
+      "categoria": "Filosofia Política",
+      "autor": "Nicolau Maquiavel",
+      "editora": "Editora QQQQ",
+      "foto": "http://books.google.com/books/content?id=FIrY8-IIcBgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "96",
+      "nome": "O Vento nos Salgueiros",
+      "descricao": "As aventuras de quatro amigos animais em um rio inglês.",
+      "categoria": "Infantil",
+      "autor": "Kenneth Grahame",
+      "editora": "Editora RRRR",
+      "foto": "http://books.google.com/books/content?id=5NFSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "97",
+      "nome": "Viagem ao Centro da Terra",
+      "descricao": "Um clássico da ficção científica que narra uma expedição ao interior do planeta Terra.",
+      "categoria": "Ficção Científica",
+      "autor": "Júlio Verne",
+      "editora": "Editora SSSS",
+      "foto": "http://books.google.com/books/content?id=oHo1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "98",
+      "nome": "O Homem que Confundiu sua Mulher com um Chapéu",
+      "descricao": "Um livro que explora casos neurológicos incomuns.",
+      "categoria": "Não Ficção",
+      "autor": "Oliver Sacks",
+      "editora": "Editora TTTT",
+      "foto": "http://books.google.com/books/content?id=2u8ADQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "99",
+      "nome": "O Trono de Vidro",
+      "descricao": "Primeiro livro da série Trono de Vidro, uma saga de fantasia.",
+      "categoria": "Fantasia",
+      "autor": "Sarah J. Maas",
+      "editora": "Editora UUUU",
+      "foto": "http://books.google.com/books/content?id=sevgAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "100",
+      "nome": "O Atlas Esmeralda",
+      "descricao": "Uma coleção de contos ambientados em mundos fantásticos.",
+      "categoria": "Fantasia",
+      "autor": "John Crowley",
+      "editora": "Editora VVVV",
+      "foto": "http://books.google.com/books/content?id=c48KMSHIoLsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ]
+}
